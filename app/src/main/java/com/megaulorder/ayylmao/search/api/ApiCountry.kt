@@ -2,8 +2,10 @@ package com.megaulorder.ayylmao.search.api
 
 import androidx.annotation.Keep
 
-@Keep
 data class ApiCountry(
-	val capital: String,
-	val region: String,
+	val flag: String,
+	val name: Name,
+)
+data class Name(
+	val common: String,
 )
